@@ -9,6 +9,7 @@
 BISON := bison
 LEX   := flex
 GPERF := gperf
+AR    := ar
 
 # Skip global definitions if recursive call
 
@@ -20,7 +21,6 @@ export SRCDIR := @abs_top_srcdir@
 export DSTDIR := @abs_top_builddir@
 export CC  := @CC@
 export CXX := @CXX@
-export AR  := @AR@
 export STRIP := @STRIP@
 export XML_CONFIG := @XML_CONFIG@
 export CFLAGS := @CFLAGS@ $(XFLAGS)
